@@ -1,0 +1,33 @@
+super user info: 
+user = david
+email = davidzaki1989@gmail.com
+password = password 
+
+student info:
+"username": "teststudent"
+"email": "student@example.com"
+"password": password@12345
+
+{
+    "username": "teststudent",
+    "password": "password123"
+}
+
+teacher info: 
+"username": "testteacher"
+"email": "teacher@example.com"
+"password": password@12345
+
+currently using websocket king to run live chat simulations, ws://127.0.0.1:8000/ws/chat/room1/
+
+http://127.0.0.1:8000/api/users/register/
+http://127.0.0.1:8000/api/users/login/
+http://127.0.0.1:8000/api/users/logout/
+
+http://127.0.0.1:8000/api/courses/create/ 
+http://127.0.0.1:8000/api/courses/list/
+http://127.0.0.1:8000/api/courses/enroll/
+
+http://127.0.0.1:8000/api/courses/feedback/create/
+http://127.0.0.1:8000/api/courses/1/feedback/
+http://127.0.0.1:8000/api/courses/notifications/
